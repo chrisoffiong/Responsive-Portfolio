@@ -1,5 +1,4 @@
 .links{
-    border: 960px;
     float: right;
     background-color: rgba(34, 12, 12, 0.137);
     font-family: sans-serif;
@@ -13,7 +12,7 @@ body {
     font-family: Courier;
     background-image: url('../images/bg.png');
     color: white;
-    padding: 25px 200px 50px;
+    padding: 5px 5px 10px;
     
 }
 html, body {
@@ -23,16 +22,13 @@ html, body {
 
 .background {
     background-color: #5856532a;
-    
-  
-   
 }
+
 h1 {
     font-family: 'Righteous',cursive;
     font-weight: bold;
     color:white;
     background-color: rgba(163, 163, 165, 0.089);
-
     border-bottom: 5px solid rgba(199, 40, 29, 0.856);
   }
 
@@ -47,8 +43,6 @@ h2 {
 .image1 {
     float: left;
     margin: 20px;
-    animation-duration: 4s;
-    animation-name: slidein;
 }
 
 p {
@@ -71,33 +65,21 @@ input[type=text] {
 }
 
 .submit {
-    color:rgb(7, 14, 17);
+    color:#69C7E8;
     background-color: rgb(8, 3, 12);
     position: absolute;
     font-family: 'Righteous',cursive;
     font-size: 35px;
     background-color: red;
     position: relative;
-    animation-duration: 4s;
-    animation-name: slidein;
+    width: 100px;
+    height: 100px;
 }
-
-@keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%; 
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
 
 .image {
     position: relative;
     float: left;
-    margin: 20px;
+    margin: 40px;
     font-family: 'Righteous',cursive;
 }
 
@@ -106,6 +88,7 @@ input[type=text] {
     clear: both;
     display: table;
   }
+
 .item {
     position: absolute;
     left: 35px;
@@ -116,10 +99,8 @@ input[type=text] {
     padding-right: 30px;
     padding-top: -20px;
     border: black solid 4px;
-    animation-duration: 4s;
-    animation-name: slidein;
-}
 
+}
 .wrapper {
     margin-bottom: -50px;
     min-height: 100%;
@@ -130,7 +111,7 @@ input[type=text] {
     height: 50px;
     bottom: 0px;
     position: fixed;
-    left: 150px;
+    left: 50px;
     color: rgba(8, 243, 243, 0.966);
     font-weight:bolder;
     
@@ -143,38 +124,34 @@ form {
 @media screen and (max-width: 990px) {
     .wrapper {
         width: 700px;
-        padding: 20px 30px 20px;
+        padding: 20px 50px 20px;
     }
     .background {
         width: 700px;
-    }
-    
-    .image {
-        width: 30%;
+        padding: 20px 50px 20px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .wrapper {
-        width: 650px;
+        width: 500px;
+        padding: 10px 40px 10px;
     }
     .background {
-        width: 650px;
-    }
-    .image {
-        width: 250px;
+        width: 500px;
+        padding: 10px 40px 10px;
     }
 }
 
 @media screen and (max-width: 640px) {
     .wrapper {
-        width: 360px;
+        width: 400px;
+        padding: 0px 0px 10px;
         
     }
-    .image {
-        width: 200px;
-    }
     .background {
-        width: 360px;
+        width: 400px;
+        padding: 0px 0px 10px;
+      
     }
 }
