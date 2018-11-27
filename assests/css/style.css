@@ -22,17 +22,14 @@ html, body {
   }
 
 .background {
-    background-color: #5856532a;
-    
-  
-   
+    background-color: #5856532a;  
 }
+
 h1 {
     font-family: 'Righteous',cursive;
     font-weight: bold;
     color:white;
     background-color: rgba(163, 163, 165, 0.089);
-
     border-bottom: 5px solid rgba(199, 40, 29, 0.856);
   }
 
@@ -132,8 +129,7 @@ input[type=text] {
     position: fixed;
     left: 150px;
     color: rgba(8, 243, 243, 0.966);
-    font-weight:bolder;
-    
+    font-weight:bolder; 
 }
 
 form {
